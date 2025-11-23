@@ -6,11 +6,11 @@ This project develops and tests methods for estimating missing international tra
 
 ## Project goals  
 
-- Identify and understand gaps in WTO and partner trade datasets. :contentReference[oaicite:1]{index=1}  
+- Identify and understand gaps in WTO and partner trade datasets.   
 - Review statistical and machine learning approaches for imputing missing values in economic data.   
-- Implement and compare several estimation strategies for missing trade flows, including theory driven and data driven methods. :contentReference[oaicite:3]{index=3}  
+- Implement and compare several estimation strategies for missing trade flows, including theory driven and data driven methods. 
 - Build a reusable pipeline in Python or R for data cleaning, imputation and evaluation that can be applied to future datasets.   
-- Design a verification and data quality module that cross checks results against external sources and flags inconsistencies. :contentReference[oaicite:5]{index=5}  
+- Design a verification and data quality module that cross checks results against external sources and flags inconsistencies.  
 
 ## Data  
 
@@ -21,7 +21,7 @@ The project uses bilateral trade data drawn from several main sources.
 - **Trade Data Monitor (TDM)** for more recent years where WTO or Comtrade coverage is limited.  
 - **Consolidated Tariff Schedules (CTS)** and other WTO notifications for supporting tariff and policy information.  
 
-Multiple reference datasets support these flows. :contentReference[oaicite:7]{index=7}  
+Multiple reference datasets support these flows.  
 
 - Harmonised System (HS) product classifications and concordance tables across HS versions.  
 - MTN product group mappings for more aggregated analysis.  
@@ -29,11 +29,11 @@ Multiple reference datasets support these flows. :contentReference[oaicite:7]{in
 - Country level economic indicators such as GDP, population and sectoral value added from the World Bank.  
 - Bilateral sanctions and preferential trade agreement information from WTO and the Global Sanctions Data Base.  
 
-The cleaned datasets cover hundreds of millions of import and export records between nearly 180 countries over 1996 to 2024. They include fully processed imports and exports, mirror statistics datasets that reconcile reported flows in both directions and country pair metadata that combines geography, preferences, sanctions and macro indicators. :contentReference[oaicite:8]{index=8}  
+The cleaned datasets cover hundreds of millions of import and export records between nearly 180 countries over 1996 to 2024. They include fully processed imports and exports, mirror statistics datasets that reconcile reported flows in both directions and country pair metadata that combines geography, preferences, sanctions and macro indicators. 
 
 ## Methods  
 
-The project combines classic tools from trade economics with modern machine learning and network based methods. :contentReference[oaicite:9]{index=9}  
+The project combines classic tools from trade economics with modern machine learning and network based methods. 
 
 ### Data preprocessing and mirror statistics  
 
